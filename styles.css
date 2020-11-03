@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap');
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0%;
+}
+
+header {
+    color: white;
+    display: flex;
+    font-size: 17px;
+    height: 60px;
+    justify-content: flex-start;
+    margin-left: 10px;
+    position: sticky;
+    top: 0.01px;
+}
+
+.articles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.genero {
+    border: 5px solid #121212;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.genero-img {
+    width: 100%;
+}
+
+.genero-title {
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 23px;
+    position: relative;
+    top: -45px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #121212;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.section-hello {
+    background-image: url("music3.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+
+/* version table */
+
+@media screen and (min-width:768px) {
+    .section-hello {
+        padding: 10px 1px 10px 0px;
+    }
+}
+
+/* version desktop */
+
+@media screen and (min-width:1024px) {}
