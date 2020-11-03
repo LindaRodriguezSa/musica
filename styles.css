@@ -55,7 +55,7 @@ header {
 }
 
 .section-hello {
-    background-image: url("music3.jpg");
+    background-image: url("assets/music3.jpg");
     background-position: center;
     background-size: cover;
     color: white;
