@@ -36,6 +36,7 @@ header {
 
 .genero-title {
     background: rgba(255, 255, 255, 0.1);
+    color: white;
     font-size: 23px;
     position: relative;
     top: -45px;
