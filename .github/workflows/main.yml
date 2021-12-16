@@ -3,5 +3,5 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
      runs-on: ubuntu-latest
-        steps:
+     steps:
         - run: echo "He implementado un action en este repositorio en el evento push."
